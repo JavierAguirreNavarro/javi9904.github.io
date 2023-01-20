@@ -1,76 +1,99 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="cssContactanos.css">
+
 <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
-<body style="background-color:Beige">
-<header><h1>Contáctanos</h1></header>
-Rellena este formulario y contacta con nosotros al:
-<ul>
-<li>Número de teléfono: 687 04 20 22</li>
-<li>Número de teléfono: 695 91 05 41</li>
-<li>Correo electronico: instrumentospaco@gmail.com<l/i>
-</ul>
-<br>
-<br>
-<form action="/action_page.php">
-<fieldset>
-<legend><strong>Datos personales y de envío</strong></legend> 
-  <label for="fname">Nombre:</label>
-  <input type="text" id="fname" name="fname" value=""><br>
-  <label for="lname">Apellidos:</label>
-  <input type="text" id="lname" name="lname" value=""><br>
-  <label for="lname">Domicilio:</label>
-  <input type="text" id="lname" name="lname" value=""><br>
-    <label for="lname">Localidad:</label>
-  <input type="text" id="lname" name="lname" value=""><br>
-    <label for="lname">Código Postal</label>
-  <input type="text" id="lname" name="lname" value=""><br>
-    <label for="lname">Teléfono</label>
-  <input type="text" id="lname" name="lname" value=""><br>
-   <label for="lname">Pregúntanos tus dudas</label>
-  <input type="text" id="lname" name="lname" value=""><br>
-</fieldset> 
-<fieldset>
- <legend><strong>¿Desea recibir publicidad e información sobre nosotros?</strong></legend>
-  <input type="radio" id="html" name="fav_language" value="HTML">
-  <label for="html">Si</label><br>
-  <input type="radio" id="css" name="fav_language" value="CSS">
-  <label for="css">No</label><br>
-</fieldset>
-<fieldset>
-<legend><strong>Eliga la opción de entrega</strong></legend>
-<input type = "radio" name = "entrega">
-<label> Recoger en el local </label> <br>
-<input type = "radio" name = "entrega">
-<label> Enviar a domicilio </label> <br>
-</fieldset>
-<fieldset>
-<legend><strong>Elija su ciudad</strong></legend>
-<select id = "tamaño" size = 4>
-<option value="Granada (Zaidin)" selected="selected"> Granada (Zaidin) </option>
-<option> Granada (Camino de Ronda)</option>
-<option> Motril </option>
-<option> Guadix </option>
-</select>
-</fieldset>
 
-<div style="position:absolute; top:650px; left:10px; height:20px; width:150; border: 3px solid">
-<center>
-<a href="formulario.HTML">Enviar formulario</a>
-</center>
-</div>
-</form> 
-<br>
-<footer>
-Nuestras marcas principales:
-<br>
-<img src="IMAGENES/stra.jpg" height="60px" width="100px">
-<img src="IMAGENES/ya.jpg" height="60px" width="100px">
-<img src="IMAGENES/sau.jpg" height="60px" width="100px">
-<img src="IMAGENES/sc.jpg" height="60px" width="100px">
-<img src="IMAGENES/ka.jpg" height="60px" width="100px">
-<img src="IMAGENES/ma.jpg" height="60px" width="100px">
-<img src="IMAGENES/ju.jpg" height="60px" width="100px">
+<body>
+  <header>
+    <h1>Contáctanos</h1>
+  </header>
+  Rellena este formulario y contacta con nosotros al:
+  <ul>
+    <li>Número de teléfono: 687 04 20 22</li>
+    <li>Número de teléfono: 695 91 05 41</li>
+    <li>Correo electronico: instrumentospaco@gmail.com</li>
+  </ul>
+  <br>
+  <br>
+  <div id="formulario">
+    <form action="/action_page.php">
+      <fieldset>
+        <legend><strong>Datos personales y de envío</strong></legend>
+        <label for="fname">Nombre:</label>
+        <input type="text" id="fname" name="fname" value=""><br>
+        <label for="lname">Apellidos:</label>
+        <input type="text" id="lname" name="lname" value=""><br>
+        <label for="lname">Domicilio:</label>
+        <input type="text" id="lname" name="lname" value=""><br>
+        <label for="lname">Localidad:</label>
+        <input type="text" id="lname" name="lname" value=""><br>
+        <label for="lname">Código Postal</label>
+        <input type="text" id="lname" name="lname" value=""><br>
+        <label for="lname">Teléfono</label>
+        <input type="text" id="lname" name="lname" value=""><br>
+        <label for="lname">Pregúntanos tus dudas</label>
+        <input type="text" id="lname" name="lname" value=""><br>
+      </fieldset>
+      <fieldset>
+        <legend><strong>¿Desea recibir publicidad e información sobre nosotros?</strong></legend>
+          <input type="radio" id="html" name="fav_language" value="HTML">
+          <label for="html">Si</label><br>
+          <input type="radio" id="css" name="fav_language" value="CSS">
+          <label for="css">No</label><br>
+      </fieldset>
+      <fieldset>
+        <legend><strong>Eliga la opción de entrega</strong></legend>
+        <input type="radio" name="entrega">
+        <label> Recoger en el local </label> <br>
+        <input type="radio" name="entrega">
+        <label> Enviar a domicilio </label> <br>
+      </fieldset>
+      <fieldset>
+        <legend><strong>Elija su ciudad</strong></legend>
+        <select id="tamaño" size=4>
+          <option value="Granada (Zaidin)" selected="selected"> Granada (Zaidin) </option>
+          <option> Granada (Camino de Ronda)</option>
+          <option> Motril </option>
+          <option> Guadix </option>
+        </select>
+      </fieldset>
+      <div id="ef">
+        <a href="formulario.HTML">Enviar formulario</a>
+      </div>
+  </div>
+  </form>
+  <footer>
+    <div id="footer">
+      Nuestras marcas principales:
+      <br>
+      <ul id="marcas">
+        <li>Stradivarius</li>
+        <li>STEINWAY</li>
+        <li>MASON & HAMLIN </li>
+        <li>CHARLES WALTER</li>
+        <li>BECHSTEIN</li>
+        <li>BLUTHNER</li>
+        <li>KAWAI</li>
+        <li>YAMAHA</li>
+      </ul>
+      Redes sociales:
+      <ul id="lista">
+        <li><img src="IMAGENES/you.png" height="15px" width="15px"> YouTube</li>
+        <li><img src="IMAGENES/insta.png" height="15px" width="15px"> Instagram</li>
+        <li><img src="IMAGENES/twi.png" height="15px" width="15px"> Twitter</li>
+        <li><img src="IMAGENES/face.png" height="15px" width="15px"> Facebook</li>
+        <li><img src="IMAGENES/tik.png" height="15px" width="15px"> TikTok</li>
 
-</footer>
+      </ul>
+    </div>
+
+  </footer>
 </body>
+
 </html>

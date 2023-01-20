@@ -1,0 +1,29 @@
+html{
+    background-color: beige;
+}
+#formulario{
+    clear: both;
+}
+#ef{
+    position:absolute; 
+    top:665px; 
+    left:10px; 
+    height:20px; 
+    width:150; 
+    border: 3px solid;
+    border-color: black;
+    border-style: solid;   
+}
+#marca{
+    float: left;
+    margin-top: 1em;
+}
+#lista{
+    float: right;
+    margin-top: 1em;
+    list-style-type: none;
+}
+#footer{
+    background-color: rgb(2, 80, 2);
+    margin-top: 2.3em;
+}
