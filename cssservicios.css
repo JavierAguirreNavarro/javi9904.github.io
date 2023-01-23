@@ -1,0 +1,61 @@
+html {
+    background-color: beige;
+}
+
+#piano {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 450px;
+    width: 450px;
+    border: 3px solid;
+}
+
+#Flauta {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 500px;
+    height: 450px;
+    width: 450px;
+    border: 3px solid;
+}
+
+#Violin {
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 500px;
+    height: 450px;
+    width: 450px;
+    border: 3px solid;
+}
+
+#Caja {
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 10px;
+    height: 450px;
+    width: 450px;
+    border: 3px solid;
+}
+
+#footer {
+    background-color: rgb(2, 80, 2);
+    margin-top: 1000px;
+    height: 220px;
+    border-style: solid;
+    border-color: rgb(229, 255, 0);
+}
+
+#marcas {
+    padding: 10px;
+    position: absolute;
+    width: 20%;
+}
+
+#RRSS {
+    padding: 10px;
+    margin-top: 0px;
+    list-style-type: none;
+    width: 45%;
+    margin-left: 25%;
+}

@@ -1,0 +1,61 @@
+html {
+    background-color: beige;
+}
+#menu {
+    position: absolute;
+    top: 65px;
+    left: 480px;
+    height: 75px;
+    width: 385px;
+    border: 3px solid;
+}
+
+#contactanos1 {
+    position: absolute;
+
+    top: 10px;
+    margin-left: 20px;
+    height: 50px;
+    width: 100px;
+    border: 3px solid;
+}
+
+#servicios {
+    position: absolute;
+    top: 10px;
+    margin-left: 140px;
+    height: 50px;
+    width: 100px;
+    border: 3px solid;
+}
+
+#tienda {
+    position: absolute;
+    top: 10px;
+    margin-left: 260px;
+    height: 50px;
+    width: 100px;
+    border: 3px solid;
+}
+
+#footer {
+    background-color: rgb(2, 80, 2);
+    margin-top: 20px;
+    height: 220px;
+    border-style: solid;
+    border-color: rgb(229, 255, 0);
+}
+
+#marcas {
+    padding: 10px;
+    position: absolute;
+    width: 20%;
+}
+
+#RRSS {
+    padding: 10px;
+    margin-top: 0px;
+    list-style-type: none;
+    width: 45%;
+    margin-left: 25%;
+}
