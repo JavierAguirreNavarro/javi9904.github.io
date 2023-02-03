@@ -1,41 +1,62 @@
 html {
     background-color: beige;
 }
+
+#cabecera {
+    background-color: brown;
+    color: white;
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
 #menu {
-    position: absolute;
-    top: 65px;
-    left: 480px;
-    height: 75px;
-    width: 385px;
-    border: 3px solid;
+    background-color: brown;
+    color: white;
+    text-align: right;
+    padding: 20px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    overflow: hidden;
+    height: 100px;
 }
 
-#contactanos1 {
-    position: absolute;
-
-    top: 10px;
-    margin-left: 20px;
-    height: 50px;
-    width: 100px;
-    border: 3px solid;
+ul{
+    text-align: right;
+    list-style-type: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 1.25em;
 }
 
-#servicios {
-    position: absolute;
-    top: 10px;
-    margin-left: 140px;
-    height: 50px;
-    width: 100px;
-    border: 3px solid;
+li{
+    display: inline;
+}
+#enlaces {
+    float: right;
 }
 
-#tienda {
-    position: absolute;
-    top: 10px;
-    margin-left: 260px;
-    height: 50px;
-    width: 100px;
-    border: 3px solid;
+h3 {
+    float: left;
+    width: 20%;
+    margin-top: 2.3em;
+}
+
+div a {
+    border: 1px solid;
+    text-decoration: none;
+    margin: 1em;
+    padding: 0.3em;
+    float: right;
+}
+
+#fotoprin {
+    margin-top: 40px;
+    width: 60%;
+    height: 70%;
+    margin-left: 20%;
 }
 
 #footer {

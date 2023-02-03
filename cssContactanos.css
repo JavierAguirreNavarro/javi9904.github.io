@@ -2,14 +2,23 @@ html {
     background-color: beige;
 }
 
+#cabecera {
+    background-color: brown;
+    color: white;
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
 #formulario {
     clear: both;
 }
 
 #ef {
     position: absolute;
-    top: 665px;
-    left: 10px;
+    margin-top: 10px;
     height: 20px;
     width: 150;
     border: 3px solid;
@@ -19,7 +28,7 @@ html {
 
 #footer {
     background-color: rgb(2, 80, 2);
-    margin-top: 2.5em;
+    margin-top: 2.7em;
     height: 220px;
     border-style: solid;
     border-color: rgb(229, 255, 0);
