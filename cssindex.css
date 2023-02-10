@@ -23,7 +23,7 @@ html {
     height: 100px;
 }
 
-ul{
+#menuenla {
     text-align: right;
     list-style-type: none;
     margin-bottom: 20px;
@@ -31,9 +31,18 @@ ul{
     font-size: 1.25em;
 }
 
-li{
+#con {
     display: inline;
 }
+
+#ser {
+    display: inline;
+}
+
+#tie {
+    display: inline;
+}
+
 #enlaces {
     float: right;
 }
@@ -79,4 +88,25 @@ div a {
     list-style-type: none;
     width: 45%;
     margin-left: 25%;
+}
+
+#rs{
+    height: 15px;
+    width: 15px;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:active {
+    color: red;
 }

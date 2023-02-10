@@ -12,6 +12,78 @@ html {
     text-align: center;
 }
 
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:active {
+    color: red;
+}
+
+#menu {
+    background-color: brown;
+    color: white;
+    text-align: right;
+    padding: 20px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    overflow: hidden;
+    height: 100px;
+}
+
+#menuenla {
+    text-align: right;
+    list-style-type: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 1.25em;
+}
+
+#con {
+    display: inline;
+}
+
+#ser {
+    display: inline;
+}
+
+#tie {
+    display: inline;
+}
+
+#enlaces {
+    float: right;
+}
+
+h3 {
+    float: left;
+    width: 20%;
+    margin-top: 2.3em;
+}
+
+div a {
+    border: 1px solid;
+    text-decoration: none;
+    margin: 1em;
+    padding: 0.3em;
+    float: right;
+}
+#donde{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+hr{
+    width: 90%;
+}
+
 #mapa {
     margin-top: 30px;
     margin-left: 20%;
@@ -20,6 +92,7 @@ html {
 
 #footer {
     background-color: rgb(2, 80, 2);
+    margin-top: 50px;
     height: 220px;
     border-style: solid;
     border-color: rgb(229, 255, 0);
