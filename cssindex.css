@@ -23,11 +23,17 @@ html {
     height: 100px;
 }
 
+#tit {
+    float: left;
+    margin-left: 30px;
+    margin-top: 35px;
+}
+
 #menuenla {
     text-align: right;
     list-style-type: none;
     margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 1.25em;
 }
 
@@ -61,6 +67,12 @@ div a {
     float: right;
 }
 
+#frase{
+    width: 90%;
+    margin-left: 60px;
+    text-align: center;
+}
+
 #fotoprin {
     margin-top: 40px;
     width: 60%;
@@ -90,7 +102,7 @@ div a {
     margin-left: 25%;
 }
 
-#rs{
+#rs {
     height: 15px;
     width: 15px;
 }
